@@ -1,0 +1,18 @@
+package com.ecom.response;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class AuthResponse {
+	
+	private String jwt;
+	
+	private String message;
+	
+	
+
+}

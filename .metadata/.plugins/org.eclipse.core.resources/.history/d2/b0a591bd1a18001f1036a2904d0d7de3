@@ -1,0 +1,10 @@
+package com.ecom.model;
+
+public class Size {
+	
+	private String name;
+	
+	private int quantity;
+	
+
+}

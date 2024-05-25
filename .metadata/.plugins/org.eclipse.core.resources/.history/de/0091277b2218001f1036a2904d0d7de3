@@ -1,0 +1,21 @@
+package com.ecom.service;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+import com.ecom.model.User;
+
+public class UserServiceImpl implements UserDetailsService {
+
+	
+	
+	@Override
+	public User loadUserByUsername(String username) {
+		
+		
+		
+		return null;
+	}
+
+	
+
+}

@@ -1,0 +1,23 @@
+package com.ecom.config;
+
+
+
+import java.util.Date;
+
+import org.springframework.security.core.Authentication;
+import org.springframework.stereotype.Service;
+
+import io.jsonwebtoken.Jwts;
+
+@Service
+public class JwtProvider {
+	
+	public String generateToken(Authentication auth)
+	{
+		String jwt=Jwts.builder()
+				.setIssuedAt(new Date())
+				.setExpiration(new Date(new Date()+846000000))
+				.
+		
+	}
+}

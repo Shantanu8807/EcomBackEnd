@@ -2,6 +2,7 @@ package com.ecom.config;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.lang.*;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -37,8 +38,9 @@ public class AppConfig {
 				cfg.setAllowedOrigins(Arrays.asList(
 						"http://localhost:3000","http://localhost:4200"
 						));
-				cfg.setAllowedMethods(Collections.singletonList("*"));
+				
 				cfg.setAllowCredentials(true);
+				cfg.setAllowedMethods(Collections.singletonList("*"));
 				cfg.setAllowedHeaders(Collections.singletonList("*"));
 				cfg.setExposedHeaders(Arrays.asList("Authorization"));
 				cfg.setMaxAge(3600L);
