@@ -1,0 +1,15 @@
+package com.ecom.model;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor	
+public class Cart {
+	
+	
+
+}

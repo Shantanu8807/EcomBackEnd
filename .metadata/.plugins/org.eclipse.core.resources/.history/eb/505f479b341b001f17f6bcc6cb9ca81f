@@ -1,0 +1,28 @@
+package com.ecom.request;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.ecom.model.CartItem;
+import com.ecom.model.User;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.OneToOne;
+
+public class AddItemRequest {
+	
+	private Long productId;
+	
+	private String size;
+	
+	private int quantity;
+	
+	private Integer price;
+	
+		
+
+}

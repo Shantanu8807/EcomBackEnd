@@ -1,0 +1,28 @@
+package com.ecom.service;
+
+import com.ecom.exception.ProductException;
+import com.ecom.model.Cart;
+import com.ecom.model.User;
+import com.ecom.request.AddItemRequest;
+
+public class CartServiceImpl implements CartService{
+
+	@Override
+	public Cart createCart(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String addCartItem(Long userid, AddItemRequest req) throws ProductException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cart findUserCart(Long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

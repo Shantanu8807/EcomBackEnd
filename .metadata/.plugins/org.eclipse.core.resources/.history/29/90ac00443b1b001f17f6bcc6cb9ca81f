@@ -1,0 +1,46 @@
+package com.ecom.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ecom.exception.ProductException;
+import com.ecom.model.Cart;
+import com.ecom.model.Product;
+import com.ecom.model.User;
+import com.ecom.repository.CartRepo;
+import com.ecom.request.AddItemRequest;
+
+public class CartServiceImpl implements CartService{
+	
+	@Autowired
+	private CartRepo cartRepo;
+	@Autowired
+	private CartItemService cartItemService;
+	@Autowired
+	private ProductService productService;
+	
+	
+
+	@Override
+	public Cart createCart(User user) {
+		Cart cart = new Cart();
+		cart.setUser(user);
+		
+		return cartRepo.save(cart);
+		
+	}
+
+	@Override
+	public String addCartItem(Long userid, AddItemRequest req) throws ProductException {
+		Cart cart=cartRepo.findByUserId(userid);
+		
+		Product product=productService.findProductById(req.getProductId());
+		
+	}
+
+	@Override
+	public Cart findUserCart(Long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

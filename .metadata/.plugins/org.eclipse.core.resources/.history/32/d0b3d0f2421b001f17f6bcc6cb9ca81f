@@ -1,0 +1,6 @@
+package com.ecom.service;
+
+public class RatingServiceImpl implements RatingService {
+
+	
+}

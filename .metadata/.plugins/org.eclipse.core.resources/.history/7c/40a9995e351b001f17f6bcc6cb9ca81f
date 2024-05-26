@@ -1,0 +1,10 @@
+package com.ecom.exception;
+
+public class CartItemException {
+
+	public CartItemException(String message) {
+		super(message)
+		// TODO Auto-generated constructor stub
+	}
+
+}

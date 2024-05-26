@@ -1,0 +1,15 @@
+package com.ecom.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ecom.exception.ProductException;
+import com.ecom.model.Rating;
+import com.ecom.model.User;
+import com.ecom.request.RatingRequest;
+
+public interface RatingRepo extends JpaRepository<Rating,Long>{
+   
+
+}

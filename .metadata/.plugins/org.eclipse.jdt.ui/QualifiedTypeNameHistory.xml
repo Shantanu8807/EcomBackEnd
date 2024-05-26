@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.security.config.http.SessionCreationPolicy"/>
     <fullyQualifiedTypeName name="org.springframework.web.cors.CorsConfigurationSource"/>
     <fullyQualifiedTypeName name="org.springframework.web.cors.CorsConfiguration"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -16,12 +15,8 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotNull"/>
@@ -29,7 +24,6 @@
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UsernameNotFoundException"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
-    <fullyQualifiedTypeName name="com.ecom.model.User"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.Authentication"/>
     <fullyQualifiedTypeName name="org.springframework.security.web.SecurityFilterChain"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity.BodyBuilder"/>
@@ -39,14 +33,8 @@
     <fullyQualifiedTypeName name="org.springframework.security.authentication.BadCredentialsException"/>
     <fullyQualifiedTypeName name="org.springframework.security.authentication.UsernamePasswordAuthenticationToken"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextHolder"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="com.ecom.model.Size"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="com.ecom.model.Category"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.ecom.exception.ProductException"/>
@@ -55,7 +43,21 @@
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="com.ecom.repository.UserRepo"/>
     <fullyQualifiedTypeName name="com.ecom.config.JwtProvider"/>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="com.ecom.exception.UserException"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="com.ecom.model.Order"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="com.ecom.exception.UserException"/>
+    <fullyQualifiedTypeName name="com.ecom.exception.CartItemException"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.ecom.model.User"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

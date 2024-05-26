@@ -1,0 +1,9 @@
+package com.ecom.request;
+
+public class ReviewRequest {
+
+	public ReviewRequest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
